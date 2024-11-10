@@ -1,0 +1,25 @@
+<!--tests/test001/test001.wxml-->
+<text>tests/test001/test001.wxml</text>
+<view>
+<!-- 头像区域 -->
+<view class="top">
+<view class="user-img"></view>
+<image src="/images/user001.png" mode=""/>
+</view>
+</view>
+<!-- 详细信息区域 -->
+<view class="menu">
+<view class="item">姓名：楞次</view>
+<view class="item">年龄：29</view>
+<view class="item">性别：男</view>
+<view class="item">特长：睡觉</view>
+<view class="item">爱好：吃饭</view>
+<view hover-start-time="1000" hover-stay-time="2000" class="hover-container">点击我测试 </view>
+</view>
+
+<view>
+  <!-- <image src="/images/user001.png" mode=""/> -->
+  <!-- <image src="/images/user001.png" mode="scaleToFill"/>
+  <image src="/images/user001.png" mode="aspectFill"/> -->
+  <!-- <image src="/images/user001.png" mode="heightFix"/> -->
+</view>

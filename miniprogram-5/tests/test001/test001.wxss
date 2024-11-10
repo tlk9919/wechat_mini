@@ -1,0 +1,27 @@
+/* tests/test001/test001.wxss */
+.top {
+background: #3a4861;
+width: 100%;
+padding: 30rpx 0;
+}
+.top .user-img {
+  width: 250rpx;
+  margin: 0 auto;
+}
+.top image{
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 50%;
+  border:  6rpx solid #777F92;
+}
+/* 详细信息样式 */
+.menu .item{
+  height:96rpx ;
+ line-height: 96rpx;
+ border-bottom: 2rpx solid #ccc;
+ padding:  0 40rpx;
+ font-size: 34prx;
+}
+.hover-container{
+  font-weight: bold;
+}

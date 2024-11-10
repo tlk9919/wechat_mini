@@ -1,0 +1,15 @@
+<!--pages/pictrue/pictrue.wxml-->
+<swiper indicator-color="white" indicator-active-color="#ff4c91" indicator-dots autoplay interval="3500" duration="1000" vertical circular>
+  <swiper-item>
+    <image src="/images4/timg1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images4/timg2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images4/timg3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images4/timg4.jpg"></image>
+  </swiper-item>
+</swiper>

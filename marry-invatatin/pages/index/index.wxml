@@ -1,0 +1,33 @@
+<!--pages/index/index.wxml-->
+<image class="bg" src="/images4/bg_1.png"></image>
+<view class="content">
+<!-- 顶部图片 -->
+<image class="content-gif" src="/images4/save_the_date.gif"> </image>
+<!-- 标题 -->
+<view class="content-title">邀请函</view>
+<!-- 合照 -->
+<view class="content-avatar">  
+<image src="/images4/avatar.png"> </image>
+</view>
+<!-- 名字 -->
+<view class="content-info">
+<view class="content-name">
+<image src="/images4/tel.png" mode=""/>
+<view>李华</view>
+<view> 新郎</view>
+ </view>
+ <view class="content-wedding">
+  <image src="/images4/wedding.png"></image> </view>
+ <view class="content-name">
+<image src="/images4/tel.png" mode=""/>
+<view>张红</view>
+<view> 新娘</view>
+ </view>  
+</view>
+<!-- 婚礼信息 -->
+<view class="content-address"> 
+<view> 我们诚邀您来参加我们的婚礼</view>
+<view>时间：2024年10月1日</view>
+<view>地点：四川达州通川区亚朵酒店</view>
+</view>
+</view>

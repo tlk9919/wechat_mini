@@ -1,0 +1,7 @@
+<!--tests/test002/test001.wxml-->
+<text>tests/test002/test001.wxml</text>
+<swiper>
+  <swiper-item>1</swiper-item>
+  <swiper-item>2</swiper-item>
+  <swiper-item>3</swiper-item>
+</swiper>

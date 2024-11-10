@@ -1,0 +1,48 @@
+{
+  "pages": [
+    
+    "pages/guest/guest",
+    "pages/video/video",
+    "pages/pictrue/pictrue",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ff4c91",
+    "backgroundTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#ff4c91",
+    "borderStyle":"white",
+    "backgroundColor": "#fff",
+    "list" :[{
+      "pagePath": "pages/index/index",
+      "iconPath": "images4/invite.png",
+      "selectedIconPath": "images4/invite.png",
+      "text": "邀请函"
+    },{
+      "pagePath": "pages/pictrue/pictrue",
+      "iconPath": "images4/marry.png",
+      "selectedIconPath": "images4/marry.png",
+      "text": "照片"},
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "images4/video.png",
+        "selectedIconPath": "images4/video.png",
+        "text": "美好时光"
+        },{
+          "pagePath": "pages/guest/guest",
+          "iconPath": "images4/guest.png",
+          "selectedIconPath": "images4/guest.png",
+          "text": "宾客信息"}
+  
+  ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+
+}

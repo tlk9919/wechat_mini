@@ -1,0 +1,50 @@
+<!--pages/exp2_2/exp2_2.wxml-->
+<text>pages/exp2_2/exp2_2.wxml</text>
+<!-- 轮播图 -->
+<swiper indicator-dots autoplay interval="1000"> 
+  <swiper-item>
+  <image src="/images/images2/swiper01.jpg"  > </image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/images2/swiper01.jpg" > </image>
+  </swiper-item>
+</swiper>
+<!-- 九宫格 -->
+<view class="grids"> 
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+<view class="item">
+<image src="/images/images2/shi.png"></image>
+</view>
+<text>美食</text>
+</view>

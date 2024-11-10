@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/exp3-1/exp3-1",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
