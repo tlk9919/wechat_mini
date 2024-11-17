@@ -66,11 +66,13 @@
   <view class="content-play-progress">
     <text>{{ play.currentTime }}</text>
     <view>
+    <!-- 监听 -->
       <slider bindchanging="sliderChanging" bindchange="sliderChange" activeColor="#d33a31" block-size="12" backgroundColor="#dadada" value="{{ play.percent }}" />
     </view>
     <text>{{ play.duration }}</text>
   </view>
 </view>
+<!-- 滚动列表可以垂直滚动 -->
 <scroll-view class="content-playlist" scroll-y>
   <view class="playlist-item" wx:for="{{ playlist }}" wx:key="id" bindtap="change" data-index="{{ index }}">
     <image class="playlist-cover" src="{{ item.coverImgUrl }}" />
