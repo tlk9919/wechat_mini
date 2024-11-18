@@ -1,18 +1,15 @@
 {
 
-"requiredBackgroundModes": ["audio"],
-"navigationBarTitleText": "音乐", 
-"navigationBarBackgroundColor": "#17181a", 
-"navigationBarTextStyle": "white",
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/exp4_1/exp4_1"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarBackgroundColor": "#ffffff"
+    "requiredBackgroundModes": ["audio"],
+"navigationBarTitleText": "音乐", 
+"navigationBarBackgroundColor": "#17181a", 
+"navigationBarTextStyle": "white"
   },
   "style": "v2",
   "componentFramework": "glass-easel",

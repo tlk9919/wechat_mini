@@ -2,7 +2,6 @@
 
   // 格式化时间
   function formatTime(time) {
-    
     var minute = Math.floor(time / 60) % 60;
     var second = Math.floor(time) % 60
     return (minute < 10 ? '0' + minute : minute) + ':' + (second < 10 ? '0' + second : second)
@@ -82,7 +81,7 @@
     //指定时间
     sliderChange: function (e) {
       var second = e.detail.value * this.audioBam.duration / 100
-      this.audioBam.seek(second)//跳转到指定的播放时间。
+      this.audioBam.seek(second)//用户停止拖动时调用,跳转到指定的播放时间。
       setTimeout(() => {
         this.sliderChangeLock = false
       }, 1000)

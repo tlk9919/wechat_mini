@@ -1,12 +1,13 @@
-<swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)" indicator-active-color="#fff" indicator-dots circular autoplay>
+<!-- circular轮播图循环滚动,autoplay: 开启自动播放 -->
+<swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)" indicator-active-color="#fff" indicator-dots  circular autoplay>
   <swiper-item>
-    <image src="/images4_1/banner.jpg" />
+    <image src="/images/banner.jpg" />
   </swiper-item>
   <swiper-item>
-    <image src="/images4_1/banner.jpg" />
+    <image src="/images/banner.jpg" />
   </swiper-item>
   <swiper-item>
-    <image src="/images4_1/banner.jpg" />
+    <image src="/images/banner.jpg" />
   </swiper-item>
 </swiper>
 <view class="content-info-portal">
