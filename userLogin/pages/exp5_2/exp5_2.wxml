@@ -1,0 +1,8 @@
+<!--pages/exp5_2/exp5_2.wxml-->
+<text>pages/exp5_2/exp5_2.wxml</text>
+<button bind:tap="credit">获取用户的积分</button>
+<button class="avatar-wrapper" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+  <image class="avatar" src="{{avatarUrl}}" />
+</button>
+<input type="nickname" class="nickname" placeholder="请输入昵称" />
+<button class="login-btn">登录 </button>
